@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lora", serif;
+}
+
+.background-img {
+    background-image: url('https://img.freepik.com/free-photo/delicious-meal-table_23-2150857956.jpg?t=st=1762512184~exp=1762515784~hmac=933f2d0b0f5c3a20d34cda3696ee5f8113454aa269c3064e1d7f49fcebe967b2&w=1480');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    width: 100%;
+    height: 750px;
+
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.banner-text {
+    position: absolute;
+    left: 12%;
+    top: 200%;
+    font-size: 150px;
+    color: aliceblue;
+
+}
+
+@media(max-width : 768px) {
+    .background-img {
+        background-position: right bottom;
+        height: 600px;
+    }
+
+    .banner-text {
+        font-size: 90px;
+    }
+}
